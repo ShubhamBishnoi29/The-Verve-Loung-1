@@ -1,0 +1,156 @@
+        /* --------------------------------------------gobel-----------------------------------------  */
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Montserrat';
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+        
+        section {
+            padding: 80px 40px;
+        }
+        
+        .logo {
+            height: 103px;
+            width: 156px;
+        }
+        
+        .search {
+            width: 18px;
+        }
+        
+        .menu {
+            width: 20px;
+            height: 13.3px;
+        }
+        
+        .sideimg {
+            max-width: 583px;
+            width: 100%;
+        }
+        
+        .banner_paragraph p {
+            margin-top: 27px;
+        }
+        
+        .button {
+            border: 0;
+            font-weight: 800;
+            background: transparent;
+            border-bottom: 2px solid #000;
+            padding: 10px 15px;
+        }
+        
+        .button:hover {
+            background: #000;
+            color: #e5e5e5;
+        }
+        
+        .Advanced_Skin_Treatments p {
+            font-weight: bold;
+        }
+        
+        .advanced_skin_treatmen {
+            position: relative;
+        }
+        
+        .leaf img {
+            position: absolute;
+            width: 320px;
+            height: 290px;
+        }
+        
+        .leaf-left img {
+            top: -23px;
+            left: -121px;
+        }
+        
+        .leaf-right img {
+            bottom: 60px;
+            right: -120px;
+        }
+        
+        .about_us {
+            background-color: #e5e5e5;
+            width: 100%;
+            background-image: url('about_us_img.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .about_us_paragraph1 {
+            font-family: 'Playfair Display';
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 35px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        
+        .about_us_paragraph2 {
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-top: 24px;
+        }
+        
+        .gift_paragraph h1 {
+            font-family: Playfair Display;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 52px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        
+        .gift_paragraph p {
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        
+        .voucher_img {
+            max-width: 500px;
+            width: 100%;
+        }
+        
+        .Testimonials {
+            background: #F5F5F5;
+            font-family: 'Montserrat';
+        }
+        
+        .carousel-item {
+            min-height: 350px;
+        }
+        
+        .carousel-caption {
+            color: black;
+            margin-bottom: 80px;
+        }
+        
+        .carousel-indicators {
+            background-color: ;
+        }
+        
+        .carousel-control-prev-icon {
+            background-image: url("left.png");
+        }
+        
+        .carousel-control-next-icon {
+            background-image: url("right.png");
+        }

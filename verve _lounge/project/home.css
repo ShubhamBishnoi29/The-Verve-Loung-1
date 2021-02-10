@@ -1,0 +1,659 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    margin-top: 25px;
+    margin-left: 20px;
+    height: 103px;
+    width: 156px;
+}
+
+.search_menu {
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.hamburger {
+    height: 14px;
+}
+
+.search_a {
+    margin-right: 15px;
+    height: 15px;
+}
+
+.banner_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner_pic img {
+    height: 483px;
+    width: 478px;
+}
+
+.banner_inner {
+    position: relative;
+}
+
+.banner-stikker img {
+    position: absolute;
+    width: 550px;
+    height: 634px;
+    z-index: -1;
+    top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 100px;
+}
+
+.banner_paragraph {
+    margin-top: 150px;
+    margin-left: 30px;
+    font-family: 'Montserrat';
+}
+
+.banner_paragraph h5 {
+    font-weight: 100;
+    line-height: 50px;
+    font-size: 50px;
+    line-height: 65px;
+    font-style: normal;
+}
+
+.banner_paragraph p {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.banner_paragraph button {
+    margin-top: 30px;
+    border: 0;
+    text-decoration: underline;
+    font-weight: 850;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+
+.advance_treatment_banner {
+    position: relative;
+}
+
+.leaf img {
+    position: absolute;
+    width: 320px;
+    height: 290px;
+}
+
+.leaf-left img {
+    top: -93px;
+    left: -139px;
+}
+
+.leaf-right img {
+    bottom: -11px;
+    right: -116px;
+}
+
+.advance_treatment_banner_inner {
+    text-align: center;
+    font-family: 'Montserrat';
+    margin-top: 110px;
+}
+
+.advance_treatment_banner_inner_img {
+    margin-bottom: 40px;
+}
+
+.vieadvance_treatment_banner_inner h2 {
+    margin-top: 35px;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+}
+
+.advance_treatment_banner_inner p {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.view_img {
+    display: flex;
+    justify-content: center;
+}
+
+.view_img img {
+    padding: 15px;
+}
+
+.view_img p {
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.view_button {
+    display: flex;
+    justify-content: center;
+}
+
+.view_button .button_inner {
+    margin-top: 60px;
+    font-weight: 800;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    padding: 10px 15px;
+}
+
+.about {
+    background-image: url('read_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 90px;
+    padding: 50px;
+}
+
+.about_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_paragraph h2 {
+    margin-bottom: 20px;
+}
+
+.about_paragraph p {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #000000;
+}
+
+.about_read p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 40px;
+}
+
+.read_button {
+    margin-top: 50px;
+    font-weight: 800;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    padding: 10px 15px;
+}
+
+.gift_voucher_inner {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+
+.gift_about h1 {
+    font-family: Playfair Display;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.gift_about {
+    margin-top: 70px;
+}
+
+.gift_about p {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.voucher_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gift_button .voucher_button {
+    margin-top: 30px;
+    font-weight: 800;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    padding: 10px 15px;
+}
+
+.Testimonials {
+    background: #F5F5F5;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.Testimonials_left_img {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Testimonials_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.Testimonials_paragraph h2 {
+    padding-bottom: 17px;
+    font-family: Montserrat;
+}
+
+.Testimonials_paragraph p {
+    font-family: Montserrat;
+}
+
+.Testimonials_paragraph h3 {
+    padding-top: 20px;
+    font-family: Playfair Display;
+}
+
+.form_text {
+    position: relative;
+}
+
+.Contact-us img {
+    position: absolute;
+    width: 320px;
+    height: 285px;
+    left: -75px;
+    bottom: 9px;
+}
+
+.form_text_inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text {
+    margin-top: 40px;
+}
+
+.text h5 {
+    font-family: Playfair Display;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    font-family: Montserrat;
+    margin-bottom: 20px;
+}
+
+.text p {
+    font-family: Montserrat;
+    margin-bottom: 17px;
+}
+
+.form_row {
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.form_group span {
+    display: block;
+}
+
+input {
+    padding: 10px 15px;
+    background: #FAFAFA;
+    border: 1px solid #EAEAEA;
+    border-radius: 2px;
+}
+
+.label_heading {
+    padding-bottom: 8px;
+}
+
+.form_group {
+    padding-left: 30px;
+}
+
+.email input {
+    padding: 10px 118px;
+}
+
+.message input {
+    padding: 40px 118px;
+}
+
+.form-row label span {
+    font-family: Montserrat;
+    font-weight: 100px;
+}
+
+.form_text_inner {
+    margin-top: 80px;
+}
+
+.button_form .button_form_a {
+    font-weight: 800;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    margin: 20px 0 0 30px;
+}
+
+.contacts {
+    background: #F5F5F5;
+}
+
+.contacts_inner {
+    margin-top: 70px;
+}
+
+.contacts_view {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.contacts_text {
+    text-align: center;
+    padding-top: 50px;
+    font-family: Montserrat;
+}
+
+.contacts_text p {
+    padding-top: 20px;
+}
+
+.contacts_text span {
+    text-decoration: underline;
+}
+
+.contacts_button .contacts_button1 {
+    font-weight: 800;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    padding: 10px 15px;
+    margin-top: 30px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+}
+
+.submit_about h2 {
+    margin-bottom: 20px;
+    font-family: Playfair Display;
+}
+
+.submit_about p {
+    margin-bottom: 10px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6D6D6D;
+}
+
+.description_button .description_button1 {
+    font-weight: 800;
+    border: 0;
+    background: transparent;
+    padding: 10px 0px;
+    font-family: Montserrat;
+}
+
+.icon h2 {
+    padding-bottom: 15px;
+    font-family: Playfair Display;
+}
+
+.subscribe h2 {
+    margin-bottom: 30px;
+}
+
+.subscribe {
+    justify-content: space-between;
+}
+
+.subscribe1 input {
+    padding: 10px 50px;
+}
+
+.subscribe_button .subscribe_button1 {
+    font-weight: 800;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-family: Montserrat;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media screen and (max-width:1220px) {
+    .container {}
+}
+
+@media screen and (max-width:1020px) {
+    .container {
+        width: 820px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .container {
+        width: 520px;
+    }
+}
+
+@media screen and (max-width:414px) {
+    .container {
+        width: 100%;
+    }
+    .search_menu {
+        margin-top: 55px;
+        margin-left: auto;
+    }
+    .banner_inner {
+        flex-direction: column;
+    }
+    .banner_pic img {
+        height: 383px;
+        width: 378px;
+    }
+    .banner_paragraph {
+        margin-top: 30px;
+    }
+    .banner_paragraph button {
+        margin-bottom: 40px;
+    }
+    .view_img {
+        flex-direction: column;
+        margin-left: 110px;
+    }
+    .view_button .button_inner {
+        margin-left: 60px;
+    }
+    .about_paragraph {
+        justify-content: center;
+    }
+    .gift_voucher_inner {
+        flex-direction: column;
+    }
+    .gift_voucher_img img {
+        height: 300px;
+        width: 400px;
+    }
+    .form_text_inner {
+        flex-direction: column;
+    }
+    .description {
+        flex-direction: column;
+    }
+}
+
+
+/*.ham {
+            position: absolute;
+            always keep ham on top of everything z-index: 1000;
+            top: 20px;
+            margin-top: 12px;
+            right: 210px;
+            width: 26px;
+            height: 26px;
+            border: none;
+            cursor: pointer;
+            background-color: black;
+            background-color: transparent;
+            background-image: url("https://ljc-dev.github.io/testing0/ham.svg");
+            background-size: 100%;
+        }
+        
+        change ham image to close .showClose {
+            background-image: url("https://ljc-dev.github.io/testing0/ham-close.svg");
+        }
+        
+        .navbar {
+            top: 0;
+            left: 0;
+            background: black;
+            width: 20vw;
+            height: 50vh;
+            overflow: hidden;
+            color: black;
+            /* hide the menu above the screen by default 
+
+transform: translateY(-100%);
+
+/* transition adds a little animation when sliding in and out the menu 
+
+transition: transform 0.2s ease;
+
+}
+.showNav {
+    /* show the menu 
+
+transform: translateY(0);
+
+}
+
+/* basic nav styling below 
+
+.navbar ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar ul li a {
+    color: white;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+    border-bottom: 2px solid white;
+}
+
+*/
+
+
+/*.bookNow {
+    height: 80%;
+    display: flex;
+}
+
+.Headpara {
+    flex: 2;
+    margin-top: 190px;
+    margin-left: 40px;
+    font-family: 'Montserrat';
+}
+
+.Headpara h2 {
+    font-weight: 590;
+}
+
+.Headpara p {
+    margin-top: 30px;
+}
+
+.Headpara button {
+    margin-top: 40px;
+    border: 0;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.pic img {
+    flex: 2;
+    margin: 20px;
+    height: 484px;
+    width: 483px;
+    margin-right: 200px;
+}   margin-right: 200px;
+}   margin-right: 200px;
+}   margin-right: 200px;
+}   margin-right: 200px;
+}   margin-right: 200px;
+}   margin-right: 200px;
+}   margin-right: 200px;
+}
